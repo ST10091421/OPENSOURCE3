@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BirdLense</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="location_display_text">Location will be displayed here</string>
+    <string name="map_content_description">Map of Birding Hotspots</string>
+    <string name="button_view_hotspots">View Birding Observations</string>
+</resources>

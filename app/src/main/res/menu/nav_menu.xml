@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/it1"
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/baseline_home_24"/>
+
+        <item android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:icon="@drawable/baseline_person_24"/>
+
+        <item android:id="@+id/nav_settings"
+            android:title="Settings"
+            android:icon="@drawable/baseline_settings_24"/>
+
+        <item android:id="@+id/nav_view"
+            android:title="View Observations"
+            android:icon="@drawable/baseline_preview_24"/>
+
+
+        <item android:id="@+id/nav_guide"
+            android:title="Quick Guide"
+            android:icon="@drawable/baseline_notes_24"/>
+
+        <item android:id="@+id/nav_gamification"
+            android:title="Gamification"
+            android:icon="@drawable/baseline_games_24"/>
+    </group>
+
+    <!-- Add a new group for Share and Rate items -->
+    <group android:id="@+id/it2"
+        android:checkableBehavior="single">
+        <item android:id="@+id/nav_share"
+            android:title="Share"
+            android:icon="@drawable/baseline_share_24"/>
+
+        <item android:id="@+id/nav_rate"
+            android:title="Rate us"
+            android:icon="@drawable/baseline_star_rate_24"/>
+    </group>
+
+</menu>
